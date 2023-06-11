@@ -1,0 +1,2868 @@
+@forward "./base/index";
+@use "./utils/index" as variable;
+
+// top header start
+.top-header{
+    background: variable.$top-header-bg;
+}
+.top-header-ul{
+    display: flex;
+   margin-top: 1.2rem;
+}
+.top-header-ul li{
+    color: #fff;
+    margin-right: 1rem;
+}
+.top-header-ul li i{
+    margin-right: .5rem;
+}
+// top header start
+
+//header start
+.header{
+    background-color: variable.$header-bg;
+    height: 5rem;
+}
+.acts{
+    width: 18px;
+    height: 19px;
+    margin-right: 5px;
+}
+.browse{
+font-family: 'Archivo';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 17px;
+display: flex;
+align-items: center;
+text-transform: uppercase;
+color: #fff;
+text-decoration: none;
+margin-top: 1rem;
+margin-left: 7rem;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: rgb(255 255 255 / 55%);
+}
+
+.navbar-light .navbar-nav .nav-link:hover{
+    color:#fff
+}
+
+.navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show>.nav-link {
+    color: rgb(255 255 255 / 100%);
+}
+
+.nav-link{
+font-family: 'Archivo';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 17px;
+text-transform: uppercase;
+}
+.header ul{
+    margin-top: 1.2rem;
+    margin-left: 10rem;
+}
+
+.enquiry{
+    position: absolute;
+    left: 54rem;
+    top: .8rem;
+    
+}
+.enquiry li{
+    font-family: 'Archivo';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 17px;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+//header end
+
+//banner part start
+.bg-img{
+ position: absolute;
+width: 100%;
+height: 800px;
+top: 148px;
+background:linear-gradient(180deg, #2654E4 0%, rgba(35, 84, 228, 0.28) 100%),url(/assets/img/banner-bg.png);
+background-size: cover;
+background-repeat: no-repeat;
+
+}
+
+.banner p{
+position: absolute;
+height: 45px;
+width: 467px;
+left: 385px;
+top: 200px;
+font-family: Archivo;
+font-size: 20px;
+font-weight: 500;
+line-height: 45px;
+letter-spacing: 0.2em;
+text-align: center;
+text-transform: uppercase;
+color: #fff;
+}
+.banner h1{
+    position: absolute;
+height: 220px;
+width: 700px;
+left: 268px;
+top: 260px;
+font-family: Archivo;
+font-size: 69px;
+font-weight: 700;
+line-height: 80px;
+letter-spacing: 0em;
+text-align: center;
+color: #fff;
+
+}
+.banner-content-section{
+position: relative;
+width: 920px;
+height: 80px;
+left: 160px;
+top: 500px;
+background-color: #fff;
+border-radius: 30px;
+}
+
+.banner-content-section ul{
+    position: absolute;
+    display: flex;
+    margin-top: 1.8rem;
+    gap: 1rem;
+}
+.banner-content-section ul li{
+font-family: 'Archivo';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 17px;
+
+}
+.search{
+ position: absolute;
+width: 196px;
+height: 60px;
+left: 866px;
+top: 511px;
+background: linear-gradient(89.88deg, #2654E4 0.11%, #E14CF9 99.89%);
+border-radius: 32.5px;
+}
+
+.search button {
+        margin-top: 16px;
+        margin-left: 42px;
+        border: none;
+        background: none;
+        color: #fff;
+        font-family: 'Archivo';
+
+}
+
+//banner part end
+
+//about-us start
+
+.about-us{
+    position: relative;
+    margin-top: 50rem;
+}
+.people img{
+    margin-top: 4rem;
+    width: 470px;
+    height: 665px;
+    margin-bottom: 8rem;
+}
+.people .video {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    top: 530px;
+    left: 433px;
+}
+.about{
+    margin-top: 7rem;
+}
+.about p{
+ font-family: Archivo;
+font-size: 17px;
+font-weight: 600;
+line-height: 45px;
+letter-spacing: 0.2em;
+text-align: start;
+text-transform: uppercase;
+color:#2354E4;
+}
+.about h1{
+font-family: 'Jost';
+font-style: normal;
+font-weight: 700;
+font-size: 50px;
+line-height: 65px;
+text-transform: capitalize;
+color: #191919;
+}
+.about .p{
+ font-family: 'Archivo';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 30px;
+text-transform: capitalize;
+color: #808080;
+}
+.client{
+    position: relative;
+    width: 546px;
+    height: 120px;
+    background: linear-gradient(90deg, #edc4f4 21.3%, #8ca7e4 100%);
+ 
+}
+.client img{
+    position: absolute;
+    height: 80px;
+    width: 80px;
+    margin-top: 1rem;
+    left: 1rem;
+    
+}
+.client .name{
+    position: absolute;
+    font-family: "Archivo";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 24px;
+    text-transform: capitalize;
+    color: #191919;
+    top: 3rem;
+    left: 7rem;
+}
+.client .founder{
+    position: absolute;
+    color:#E14CF9;
+    font-family: Archivo;
+font-size: 16px;
+font-weight: 400;
+line-height: 23px;
+letter-spacing: 0em;
+text-align: left;
+top: 68px;
+left: 115px;
+text-transform: capitalize;
+}
+.singnuture{
+    margin-left: 24rem;
+}
+.more-about-us{
+    margin-top: 2rem;
+ width: 231px;
+height: 65px;
+    border: none;
+    color: #fff;
+    background: linear-gradient(89.88deg, #2654E4 0.11%, #E14CF9 99.89%);
+border-radius: 32.5px;
+
+}
+.more-about-us i{
+    margin-left: 10px;
+}
+//about-us end
+
+//Popular Brand Start
+.popular-brand{
+background: linear-gradient(146.47deg,#FCEDFE 13.98%,#E8EEFC  85.82%);
+height: 1200px;
+
+}
+.popular-brand p{
+position: absolute;
+width: 300px;
+height: 45px;
+left: 516px;
+top: 1888px;
+font-family: 'Archivo';
+font-style: normal;
+font-weight: 600;
+font-size: 17px;
+line-height: 45px;
+text-align: center;
+letter-spacing: 0.2em;
+text-transform: uppercase;
+color: #2354E4;
+
+}
+.popular-brand h2{
+font-family: Archivo;
+font-size: 55px;
+font-weight: 700;
+line-height: 70px;
+letter-spacing: 0em;
+text-align: center;
+margin-top: 7.5rem;
+}
+.row-sec{
+    height:780px;
+    width: 1135px;
+    background-color: #fff;
+}
+.row-sec h3{
+position: absolute;
+width: 200px;
+height: 70px;
+left: 181px;
+top: 2120px;
+font-family: Archivo;
+font-size: 30px;
+font-weight: 600;
+line-height: 35px;
+letter-spacing: 0em;
+text-align: left;
+
+}
+.row-sec .frist-p{
+position: absolute;
+width: 580px;
+height: 90px;
+left: 426px;
+top: 2116px;
+font-family: 'Archivo';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 30px;
+text-transform: capitalize;
+color: #4F4F4F;
+
+}
+.row-sec .frist-img{
+    margin-top: 45px;
+    margin-left: 947px;
+}
+
+.row-sec .sec{
+font-family: 'Archivo';
+font-style: normal;
+font-weight: 600;
+font-size: 30px;
+line-height: 35px;
+text-transform: capitalize;
+color: #191919;
+margin-top: 108px;
+}
+.row-sec .sec-p{
+    
+position: absolute;
+width: 485px;
+height: 90px;
+left: 383px;
+top: 2241px;
+font-family: 'Archivo';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 30px;
+text-transform: capitalize;
+color: #4F4F4F;
+}
+.popular-img{
+
+    width: 200px;
+    height: 250px;
+    margin-top: 9px;
+    margin-left: 767px;
+}
+.row-sec .sec-img{
+    margin-top: -6rem;
+}
+.row-sec .hr{
+    margin-top: -6rem;
+}
+.row-sec .third{
+    margin-top: 300px;
+}
+.row-sec .third-p{
+    position: absolute;
+width: 485px;
+height: 90px;
+left: 383px;
+top: 2396px;
+font-family: 'Archivo';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 30px;
+text-transform: capitalize;
+color: #4F4F4F;
+}
+.row-sec .img-third{
+    margin-left: 972px;
+}
+.row-sec .third-hr{
+    margin-top: 2rem;
+}
+.row-sec .four{
+    margin-top: 420px;
+}
+.row-sec .four-p{
+    position: absolute;
+    width: 585px;
+    height: 90px;
+    left: 383px;
+    top: 2538px;
+    font-family: 'Archivo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    text-transform: capitalize;
+    color: #4F4F4F;
+}
+.row-sec .four-img{
+    margin-left:  970px;
+}
+.row-sec .four-hr{
+    margin-top: 2rem;
+}
+.row-sec .last{
+    margin-top: 553px;
+}
+.row-sec .last-p{
+    position: absolute;
+    width: 585px;
+    height: 90px;
+    left: 383px;
+    top: 2666px;;
+    font-family: 'Archivo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    text-transform: capitalize;
+    color: #4F4F4F;
+}
+.row-sec .last-img{
+    margin-left: 957px;
+}
+.row-sec .last-hr{
+    margin-top: 2rem;
+}
+
+.row .view-all-bands{
+position: absolute;
+width: 190px;
+height: 30px;
+left: 560px;
+top: 2901px;
+font-family: 'Archivo';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 30px;
+text-decoration-line: underline;
+text-transform: uppercase;
+border: none;
+background: none;
+color: #E14CF9;
+
+
+}
+//Popular Brand End
+
+//Special-Genres start
+.Special-Genres{
+    height: 1030px;
+  
+}
+.Special-Genres p{
+font-family: 'Archivo';
+font-style: normal;
+font-weight: 600;
+font-size: 17px;
+line-height: 45px;
+letter-spacing: 0.2em;
+text-transform: uppercase;
+color: #2354E4;
+margin-top: 5rem;
+}
+.Special-Genres h2{
+position: absolute;
+width: 581px;
+height: 140px;
+left: 34px;
+top: 3124px;
+font-family: 'Archivo';
+font-style: normal;
+font-weight: 700;
+font-size: 55px;
+line-height: 70px;
+text-transform: capitalize;
+color: #191919;
+}
+.arrow-btn{
+    margin-top: 4rem;
+    margin-left: 62rem;
+}
+.arrow-btn button{
+    border: none;
+    height: 52px;
+    width: 52px;
+  background:none;
+  color: #fff;
+}
+.left-button button{
+    background-color: #fff;
+}
+.arrow-btn div{
+    background-color: #000;
+    display: inline-block;
+}
+.arrow-btn .left{
+    background-color: #f8f6f6;
+}
+.left button i{
+    color: #000;
+}
+.img-galary{
+    margin-top: 3rem;
+    display: flex;
+   gap: 16px;
+}
+.img-galary img{
+
+    width: 305px;
+    height: 549px;
+ 
+}
+.img-galary .img-gala-first{
+    margin-left: 1rem;
+}
+.img-galary .img-gala-last{
+    margin-left: 2px;
+    width: 232px;
+}
+.view-all-genres{
+position: absolute;
+width: 193px;
+height: 30px;
+top: 3907px;
+font-family: 'Archivo';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 30px;
+text-transform: uppercase;
+background: linear-gradient(146.47deg, #E14CF9 13.98%, #1A55E3 85.82%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+background-clip: text;
+border: none;
+text-decoration: underline;
+}
+
+.video-icon{
+    position: absolute;
+    left: 422px;
+    top: 3362px;
+}
+//Special-Genres End
+
+//Live Band start
+
+.live-band{
+position: absolute;
+width: 100%;
+height: 800px;
+top: 3983px;
+background:linear-gradient(180deg, #191919 34.06%, rgba(25, 25, 25, 0) 100%), url(/assets/img/live-band-people.png);
+}
+.live-band p{
+width: 170px;
+height: 45px;
+font-family: 'Archivo';
+font-style: normal;
+font-weight: 600;
+font-size: 17px;
+line-height: 45px;
+text-align: center;
+letter-spacing: 0.2em;
+text-transform: uppercase;
+color: #FFFFFF;
+margin-top: 81px;
+margin-left: 580px;
+
+}
+.live-band h2{
+width: 649px;
+height: 140px;
+font-family: 'Archivo';
+font-style: normal;
+font-weight: 700;
+font-size: 55px;
+line-height: 70px;
+text-align: center;
+text-transform: capitalize;
+margin-left: 357px;
+color: #FFFFFF;
+}
+.live-band button{
+    color: #fff;
+    padding: 1rem;
+    text-transform: uppercase;
+    font-size: 17px;
+    background: linear-gradient(89.88deg, #2654E4 0.11%, #E14CF9 99.89%);
+    border-radius: 32.5px;
+    margin-left: 600px;
+    margin-top: 60px;
+}
+.live-band button i{
+    font-size: 14px;
+    margin-left: 10px;
+}
+//Live Band end
+
+//how it works start
+.how-it-works{
+    position: absolute;
+    width: 1070px;
+    height: 1004px;
+    left: 130px;
+    top: 4480px;
+    background: #ffffff;
+    box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.08);
+}
+.how-it-works img{  
+    top: 66px;
+    left: 58px;
+    position: absolute;
+    width: 431px;
+    height: 805px;
+}
+.how-it-works p{
+font-family: 'Archivo';
+font-style: normal;
+font-weight: 600;
+font-size: 17px;
+line-height: 45px;
+letter-spacing: 0.2em;
+text-transform: uppercase;
+color: #2354E4;
+margin-top: 53px;
+}
+.how-it-works h2{
+font-family: 'Archivo';
+font-style: normal;
+font-weight: 700;
+font-size: 55px;
+line-height: 70px;
+text-transform: capitalize;
+color: #191919;
+}
+.work-frist{
+    display: flex;
+    gap: 10px;
+}
+.work-frist .p{
+    margin-top: -8px;
+    height: 50px;
+    width: 50px;
+    background: linear-gradient(146.47deg, #E14CF9 13.98%, #1A55E3 85.82%);
+    color: #fff;
+    font-size: 15px;
+    padding: 2px;
+    border-radius: 29px;
+    text-align: center;
+}
+.how-it-works .how-it-p{
+font-family: 'Archivo';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 30px;
+text-transform: capitalize;
+color: #4F4F4F;
+position: absolute;
+top: 203px;
+left: 578px;                         
+}
+
+.arrow-vartical .vl{
+    border-left: 2px solid #ece9e9;
+    height: 107px;
+    margin-left: 7px;
+   
+}
+p.how-it-p2{
+    font-family: 'Archivo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    text-transform: capitalize;
+    color: #4F4F4F;
+    position: absolute;
+    top: 454px;
+    left: 578px;
+}
+p.how-it-p3{
+    font-family: 'Archivo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    text-transform: capitalize;
+    color: #4F4F4F;
+    position: absolute;
+    top: 693px;
+    left: 578px;
+}
+//how it works end
+
+//clients-feedback start
+.clients-feedback{
+    position: absolute;
+    width: 100%;
+    height: 620px;
+    top:5554px;
+   
+}
+
+.clients-feedback span{
+position:absolute;
+font-family: 'Archivo';
+font-style: normal;
+font-weight: 600;
+font-size: 17px;
+line-height: 45px;
+text-align: center;
+letter-spacing: 0.2em;
+text-transform: uppercase;
+color: #2354E4;
+top: 18px;
+left: 29px;
+}
+.clients-feedback h2{  
+position: absolute;
+width: 674px;
+height: 70px;
+top: 59px;
+left: 25px;
+font-family: 'Archivo';
+font-style: normal;
+font-weight: 700;
+font-size: 55px;
+line-height: 70px;
+text-transform: capitalize;
+color: #191919;
+}
+
+//frist review start
+.frist-review {
+    border: 1px solid #f5f5f5;
+    width: 33%;
+    margin-top: 5rem;
+    margin-left: 3rem;
+    padding: 16px;
+}
+.frist-review div{
+    display: flex;
+    margin-bottom: 18px;
+}
+.frist-review div img{
+ height: 24px;
+width: 30px;
+margin-right: 10px;
+}
+.frist-review div p{
+ position: absolute;
+width: 199px;
+height: 20px;
+font-family: 'Archivo';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 20px;
+text-transform: capitalize;
+color: #191919;
+left: 104px;
+top: 216px;
+}
+
+.frist-review p{
+
+font-family: 'Archivo';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 30px;
+text-transform: capitalize;
+color: #4F4F4F;
+}
+.frist-review .client-pic{
+    margin-top: 64px;
+}
+.client-pic .devede {
+    width: 80px;
+    height: 80px;
+}
+
+.client-pic h5{
+font-family: 'Archivo';
+font-style: normal;
+font-weight: 600;
+font-size: 25px;
+line-height: 24px;
+margin-top: 24px;
+text-transform: capitalize;
+color: #000000;
+}
+
+.client-pic .client-info{   
+position: absolute;
+width: 227px;
+height: 30px;
+left: 153px;
+top: 488px;
+font-family: 'Archivo';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 30px;
+text-transform: capitalize;
+color: #E14CF9;
+}
+//frist review end
+//sec review start
+.sec-review{
+    width: 33%;
+    margin-top: 5rem;
+    margin-left: 71px;
+    padding: 16px;
+    position: absolute;
+    top: 117px;
+    left: 445px;
+    background: linear-gradient(90deg, #E14CF9 21.3%, #1A55E3 100%);
+}
+.sec-review div{
+    display: flex;
+    margin-bottom: 15px;
+
+}
+.sec-review div img{
+    height: 24px;
+    width: 30px;
+    margin-right: 10px;
+}
+.sec-review div p{
+font-family: 'Archivo';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 30px;
+text-transform: capitalize;
+color: #F7F7F7;
+}
+.sec-review .des{
+font-family: 'Archivo';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 30px;
+text-transform: capitalize;
+color: #F7F7F7;
+margin-top: -19px;
+}
+.client-des{
+    margin-top: 67px;
+}
+.client-des .devide{
+    width: 80px;
+    height: 80px;
+}
+.client-des h5{
+    font-family: 'Archivo';
+font-style: normal;
+font-weight: 600;
+font-size: 24px;
+line-height: 24px;
+position: absolute;
+left: 109px;
+top: 232px;
+text-transform: capitalize;
+color: #FFFFFF;
+}
+.client-des .info{
+    position: absolute;
+    top: 261px;
+    left: 103px;
+    
+font-family: 'Archivo';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 30px;
+/* identical to box height, or 188% */
+
+text-transform: capitalize;
+
+color: #FFFFFF;
+}
+//sec review end
+
+//third review start
+
+.third-review{
+    border: 1px solid #f5f5f5;
+    width: 27%;
+    margin-top: 5rem;
+    margin-left: 3rem;
+    padding: 16px;
+    position: absolute;
+    top: 117px;
+    left: 936px;
+    background: linear-gradient(270deg, #FFFFFF 0%, rgba(255, 255, 255, 0) 93.73%);
+}
+.third-review div{
+    display: flex;
+    margin-bottom: 15px;
+
+}
+
+.third-review div img{
+    height: 24px;
+    width: 30px;
+    margin-right: 10px;
+}
+.third-review div p{
+    font-family: 'Archivo';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    text-transform: capitalize;
+    color: #000000;
+    position: absolute;
+    left: 55px;
+    top: 13px;
+    }
+    .third-review .des{
+        font-family: 'Archivo';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 30px;
+        text-transform: capitalize;
+        color: #F7F7F7;
+        margin-top: -19px;
+        }
+        .client-pic{
+            margin-top: 44px;
+        }
+        .third-review .des3{
+            margin-top: -4px;
+            font-family: 'Archivo';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 30px;
+            text-transform: capitalize;
+            color: #4F4F4F;
+        }
+        .client-pic .client-info2{
+            position: absolute;
+            top: 261px;
+            left: 106px;
+            font-family: 'Archivo';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 30px;
+            text-transform: capitalize;
+            color: #E14CF9;
+        }
+//third review end
+
+//clients-feedback end
+
+//latest-news start
+.latest-news{
+    position: absolute;
+    height: 800px;
+    top:6172px;
+    width: 100%;
+    background: linear-gradient(146.47deg, #e4d3e7 13.98%, #c6d4f4 85.82%);
+  
+}
+.latest-news span{
+ position: absolute;
+font-family: Archivo;
+font-size: 17px;
+font-weight: 600;
+line-height: 45px;
+letter-spacing: 0.2em;
+letter-spacing: 0.2em;
+text-transform: uppercase;
+color: #2354E4;
+margin-top: 114px;
+margin-left: 575px;
+}
+.latest-news h2{ 
+position: absolute;
+width: 442px;
+height: 70px;
+left: 434px;
+top: 153px;
+font-family: 'Archivo';
+font-style: normal;
+font-weight: 700;
+font-size: 55px;
+line-height: 70px;
+text-align: center;
+text-transform: capitalize;
+color: #191919;
+}
+
+//frist bg start
+ .frist-bg {
+    position: absolute;
+  background: linear-gradient(146.47deg, rgba(225, 76, 249, 0) 16.43%, #1A55E3 88.28%),url(/assets/img/latest-frist.png);
+  top:  285px;
+  left: 29px;
+}
+.frist-bg .Weeding{
+background-color: #fff;
+width: 135px;
+height: 30px;
+font-family: 'Archivo';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+text-transform: uppercase;
+color: #191919;
+padding: 5px;
+text-align: center;
+border-radius: 10px;
+position: absolute;
+top: 19px;
+left: 29px;
+}
+.frist-bg .date{
+    
+position: absolute;
+width: 104px;
+height: 30px;
+left: 39px;
+top: 275px;
+font-family: 'Archivo';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 30px;
+text-transform: capitalize;
+color: #FFFFFF;
+}
+.frist-bg h6{
+position: absolute;
+width: 390px;
+height: 79px;
+left: 41px;
+top: 301px;
+font-family: 'Archivo';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 34px;
+text-transform: capitalize;
+color: #FFFFFF;
+
+}
+//frist bg end
+
+////second bg start
+.sec-bg {
+    position: absolute;
+ 
+  background:url(/assets/img/latest-sec.png);
+  top:  285px;
+   left:408px;
+}
+div.gradiant{
+    position: absolute;
+    width: 309px;
+    height: 344px;
+    left: 427px;
+    top: 313px;
+    background: linear-gradient(90deg, #E14CF9 21.3%, #1A55E3 100%);
+    opacity: 0.9;
+}
+.latest-news .div{
+    width: 350px;
+    height: 400px;
+}
+.gradiant img{
+    position: absolute;
+    top: 112px;
+    left: 111px;
+}
+//second bg end
+
+//third bd start
+ .third-bg{
+    position: absolute;
+    width: 450px;
+    height: 545px;
+  background:linear-gradient(146.47deg, rgba(225, 76, 249, 0) 13.98%, #1A55E3 85.82%),url(/assets/img/latest-third.png);
+  top: 285px;
+  left: 794px;
+ }
+
+.third-bg .Weeding{
+    background-color: #fff;
+    width: 135px;
+height: 30px;
+font-family: 'Archivo';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+text-transform: uppercase;
+color: #191919;
+padding: 5px;
+text-align: center;
+border-radius: 10px;
+position: absolute;
+top: 19px;
+left: 29px;
+}
+
+.third-bg .date{
+ position: absolute;
+width: 104px;
+height: 30px;
+left: 39px;
+top: 275px;
+font-family: 'Archivo';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 30px;
+text-transform: capitalize;
+color: #FFFFFF;
+}
+.third-bg h6{
+    position: absolute;
+width: 390px;
+height: 79px;
+left: 41px;
+top: 301px;
+font-family: 'Archivo';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 34px;
+text-transform: capitalize;
+color: #FFFFFF;
+
+}
+//third bg end
+
+//latest-news end
+
+//logo-part start
+.logo{
+    position: absolute;
+    height: 225px;
+    top: 7046px;
+    background-color: #ffffff;
+}
+.logo .frist-logo{
+    margin-left:  205px;
+    margin-right: 16px;
+    border: 1px solid rgb(227, 223, 223);
+    padding: 13px;
+}
+.logo .sec-logo{
+    margin-right: 16px;
+    border: 1px solid rgb(227, 223, 223);
+    padding: 13px;
+}
+
+//logo part end
+//top footer start
+.top-footer{
+    position: absolute;
+    height: 250px;
+    top: -135px;
+    left: 125px;
+    width: 84%;
+    background: url(/assets/img/top-footer.png);
+}
+.top-footer span{
+    position: absolute;
+    left: 51px;
+    right: 73.12%;
+    top: 15.65%;
+    bottom: 88.36%;    
+    font-family: 'Archivo';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 45px;
+    text-align: center;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+hr{
+    margin-top: 90px;
+}
+.top-footer h2{
+    position: absolute;
+    left: 8.41%;
+    right: 59.95%;
+    top: 41.86%;
+    bottom: 71.62%;
+    font-family: "Archivo";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 38px;
+    line-height: 47px;
+    text-transform: capitalize;
+    color: #fff;
+}
+.top-footer button{
+    border: none;
+    margin-left: 871px;
+    margin-top: -6px;
+    background: #fff;
+    padding: 10px;
+    text-transform: uppercase;
+    font-family: 'Archivo';
+    border-radius: 30px;
+}
+//top foter end
+//footer start
+footer{
+    position: absolute;
+    width: 100%;
+    height: 525px;
+    top: 7320px;
+    background: #000000;
+}
+.footer .about-us{
+    position: absolute;
+    top: -518px;
+    left: 125px;
+    width: 326px;
+}
+.footer h5{
+    font-family: 'Archivo';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 20px;
+text-transform: uppercase;
+color: #FFFFFF;
+}
+
+//aboutt us start
+
+.about-us p{
+font-family: 'Archivo';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 25px;
+margin-top: 20px;
+text-transform: capitalize;
+color: #9F9F9F;
+}
+.about-us .icon{
+    display: flex;
+    gap: 20px;
+}
+.about-us .icon .frist{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #E14CF9;
+    height: 30px;
+    width: 30px;
+    padding: 10px;
+    align-items: center;
+    border-radius: 10px;
+    color: #fff;
+}
+.about-us .icon i{
+    text-align: center;
+    
+}
+
+.about-us .icon .sec {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 30px;
+    width: 30px;
+    padding: 10px;
+    border-radius: 10px;
+    color: #fff;
+    border:1px solid #686565;
+}
+//aboutt us end
+
+//resources start
+.Resources {
+    position: absolute;
+    top: 282px;
+    left: 489px;
+}
+.Resources ul li a.active{
+    color: #fff;
+    text-transform: capitalize;
+}
+.Resources ul li a{
+list-style: none;
+text-decoration: none;
+color: #9F9F9F;
+}
+//resources end
+//company start
+.company {
+    position: absolute;
+    top: 282px;
+    left: 694px;
+}
+.company ul li a.active{
+    color: #fff;
+    text-transform: capitalize;
+}
+.company ul li a{
+    list-style: none;
+    text-decoration: none;
+    color: #9F9F9F;
+    }
+
+//company end
+
+//subscribe now start
+.subscribe{
+        position: absolute;
+        top: 282px;
+        left: 898px;
+        width: 319px;
+}
+.subscribe p{
+font-family: Archivo;
+font-size: 18px;
+font-weight: 400;
+line-height: 30px;
+letter-spacing: 0em;
+text-align: left;
+color: #9F9F9F;
+}
+    .subscribe input {
+        width: 262px;
+        height: 49px;
+        border: none;
+        background: #D9D9D9;
+        padding: 0 16px;
+        border-radius: 33px;
+    }
+.subscribe i{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    background: #e14cf9;
+    height: 37px;
+    width: 37px;
+    padding: 21px;
+    color: #fff;
+    border-radius: 20px;
+    font-size: 18px;
+    top: 107px;
+    left: 220px;
+}
+
+//subscribe now end
+
+//bottom footer start
+.bottom-footer{
+    position: absolute;
+    top: 7844px;
+   background: linear-gradient(90deg, #E14CF9 21.3%, #1A55E3 100%);
+   width: 100%;
+   height: 90px;
+   display: flex;
+}
+.bottom-footer .copyright{
+    position: absolute;
+    left: 118px;
+    top: 27px;
+    font-family: 'Archivo';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 25px;
+    text-transform: capitalize;
+    color: #FFFFFF;
+   
+}
+.bottom-footer-logo{
+    position: absolute;
+    left: 590px;
+    bottom: 15px;
+}
+.terms-privacy{
+    position: absolute;
+    left: 952px;
+    bottom: 15px;
+    font-family: 'Archivo';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 25px;
+    text-transform: capitalize;
+    color: #FFFFFF;
+    span{
+        margin: 0 10px;
+    }
+
+}
+//bottom footer end
+
+// footer end
+
+//responsive
+
+// responsive for 1200px
+@media (max-width:1200px){
+    //navbar start
+    .browse {   
+        margin-left: 4rem;
+    }
+    .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show>.nav-link {
+        margin-left: -36px;
+    }
+    .enquiry li{
+        margin-left: -65px;
+    }
+    //nav bar end
+    //clients feedback start
+    .frist-review {
+        border: 1px solid #f5f5f5;
+        width: 27%;
+        margin-top: 5rem;
+        margin-left: 3rem;
+        padding: 16px;
+    }
+    .client-pic .client-info{
+        top: 512px;
+    }
+    .sec-review {
+        width: 29%;
+        margin-left: 30px;
+    }
+    .client-des h5{
+        top: 281px;
+    }
+    .client-des .info {
+        top: 304px;
+        left: 111px;
+    }
+    .third-review {
+        width: 30%;
+        margin-left: -6rem;
+    }
+     //clients feedback end
+
+     //how it works start
+     .how-it-works {
+        left: 81px;
+      
+    }
+       //how it works end
+       //footer start
+       .terms-privacy {
+        left: 898px;
+    }
+    .top-footer button {
+        margin-left: 846px;
+        margin-top: -11px;
+        
+    }
+
+}
+
+
+//responsive for 992px
+
+@media (max-width: 992px) {
+    .sm-none{
+        display:  none;
+    }
+    .enquiry{
+        display: none;
+    }
+    //nav bar
+    .navbar-light .navbar-toggler {
+        color: rgba(0,0,0,.55);
+        border-color: rgba(0,0,0,.1);
+        background: #fff;
+    }
+    //banner start
+    .bg-img {
+        top: 80px; 
+    }
+   
+    .banner p {
+        left: 214px;
+        top: 153px;
+    }
+    .banner h1 {
+        left: 84px;
+        top: 207px;
+    }
+    .banner-content-section {
+        width: 270px;
+        height: 251px;
+        left: 299px;
+        top: 414px;
+    }
+    
+    .banner-content-section ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .search {
+        left: 349px;
+        top: 558px;
+    }
+    //banner end
+
+    //about us start
+    section.about-us {
+       
+        height: 1515px;
+    }
+    .about {
+        margin-top: 48rem;
+  
+    }
+    p.frist-about-us {
+        margin-left: -379px;
+        text-transform: uppercase;
+        margin-top: 51px;
+    }
+    .about h1 {
+        margin-left: -390px;
+    }
+    p.about-us-sce-p {
+        margin-left: -385px;
+        width: 499px;
+    }
+    .client{
+        margin-left: -387px;
+        margin-top: 35px;
+    }
+    .client .name{
+        top: 1rem;
+    }
+    .client .founder{  
+    top: 44px;
+    }
+    .more-about-us{
+        margin-left: -213px;
+    }
+    //about us end
+
+    //popular Band start
+    .row-sec h3 {
+        top: 2694px;
+        left: 69px;
+    }
+   
+    .popular-brand p{  
+    left: 224px;
+    top: 2460px;
+    }
+    .row-sec .frist-p {
+        top: 2833px;
+        left: 230px;
+        text-align: left;
+        width: 514px;
+    }
+    .row-sec .third {
+        margin-top: 283px;
+    }
+
+    .row-sec .last-p {
+        left: 233px;
+        text-align: left;
+        top: 2684px;
+        width: 510px;
+    }
+    .row-sec .sec-p {
+        top: 2966px;
+        left: 273px;
+        text-align: left;
+    }
+    .row-sec .third-p{
+    left: 275px;
+    top: 3097px;
+    text-align: left;
+
+    }
+    .row-sec .four-p {
+        left: 226px;
+        top: 3237px;
+        text-align: left;
+        width: 514px;
+    }
+    .row .view-all-bands{
+        left: 433px;
+        top: 3480px;
+    }
+    .popular-img{
+        display: none;
+    }
+    .row-sec .sec-img {
+        margin-top: -1rem;
+        margin-left: 659px;
+    }
+    .row-sec .frist-img {
+        margin-top: 16px;
+        margin-left: 648px;
+    }
+    .row-sec .img-third {
+        margin-left: 675px;
+        margin-top: 145px;
+    }
+    .row-sec .four-img {
+        margin-left: 664px;
+    }
+    .row-sec .last-img {
+        margin-left: 649px;
+    }
+    .row-sec .sec {
+        margin-top: 147px;
+    }
+//popular Band end
+
+//Special-Genres start
+    .Special-Genres h2 {
+        top: 3711px;
+        left: 34px;
+    }
+    .img-galary img {
+        width: 392px;
+        height: 579px;
+    }
+    img.custom {
+        margin-top: 612px;
+        margin-left: -809px;
+    }
+    .view-all-genres{
+        top: 5193px;
+     left: 272px;
+    }
+    .special-arrow-btn {
+        margin-left: 537px;
+    }
+    .img-galary .img-gala-first {
+        width: 386px;
+    }
+//Special-Genres end
+
+//live band start
+.live-band {
+    top: 5284px;
+}
+.live-band p{
+    margin-left: 362px;
+}
+.live-band h2 {
+    margin-left: 136px;
+}
+.live-band button{
+    margin-left: 337px;
+}
+//live band end
+
+//.how-it-works start
+.how-it-works {
+    top: 6096px;
+    left: 0px;
+    width: 100%;
+}
+
+.how-it-works .how-it-p {
+    width: 366px;
+    left: 454px;
+}
+
+p.how-it-p2 {
+    width: 366px;
+    left: 454px;
+    top: 429px;
+}
+p.how-it-p3 {
+    width: 366px;
+    left: 452px;
+    top: 667px;
+}
+.how-it-works img {
+    width: 323px;
+}
+//.how-it-works end
+
+//.clients-feedback start
+.clients-feedback {
+    top: 7138px;
+}
+.clients-feedback span {
+    left: 395px;
+}
+.clients-feedback h2{
+    left: 98px;
+}
+
+.arrow-btn {
+    margin-left: 43rem;
+}
+.frist-review{
+    width: 47%;
+}
+.sec-review {
+    width: 46%;
+}
+.third-review{
+    margin-left: -55rem;
+    margin-top: 28rem;
+    width: 46%;
+}
+.client-pic .client-info2{
+    top: 236px;
+}
+.client-pic .client-info{
+    top: 459px;
+}
+p.client-info {
+    margin-top: 30px;
+}
+p.client-info2 {
+    margin-top: 26px;
+}
+//.clients-feedback end
+//.latest-news  start
+.latest-news {
+    top: 8044px;
+    height: 1214px;
+}
+.latest-news span{
+    margin-left: 387px;
+}
+.latest-news h2 {
+    left: 276px;
+}
+
+.third-bg{
+    top: 716px;
+    left: 31px;
+}
+ 
+//.latest-news  start
+//logo start
+.logo {
+    top: 9297px;
+}
+.logo .frist-logo {
+    margin-left: 209px;
+}
+img.sec-logo.logo-cus3 {
+    margin-left: 217px;
+    margin-top: 67px;
+}
+img.sec-logo.logo-cus4 {
+    margin-top: 65px;
+}
+//logo end
+//footer start
+.footer {
+    top: 9728px;
+    height: 801px;
+}
+.top-footer span{
+    right: 61.12%;
+}
+.top-footer{
+    left: 83px;
+}
+.top-footer h2{
+    right: 42.95%;
+}
+.top-footer button {
+    margin-left: 526px;
+}
+.company {
+    top: 467px;
+    left: 155px;
+}
+.subscribe {
+    top: 458px;
+    left: 509px;
+}
+.Resources {
+    
+    left: 573px;
+}
+//footer end
+//bottom footer start
+.bottom-footer {
+    top: 10379px;
+    height: 180px;
+}
+.bottom-footer .copyright {
+    left: 373px;
+    top: 37px;
+}
+.bottom-footer-logo {
+    left: 424px;
+    bottom: 59px;
+}
+.terms-privacy {
+    left: 378px;
+    bottom: 22px;
+}
+
+//bottom footer end
+}
+
+
+
+
+// responsive for 768 px
+@media (max-width:768px){
+    //top bar
+    .sm-none{
+        display: none;
+    }
+    .navbar-light .navbar-toggler {
+        color: rgba(0,0,0,.55);
+        border-color: rgba(0,0,0,.1);
+        background: #fff;
+    }
+    .enquiry li {
+        display: none;
+    }
+
+    //banner start
+    .bg-img {
+        top: 75px;
+    }
+
+    .banner p{
+        left: 150px;
+        top: 117px;
+    }
+    .banner h1{
+        left: 61px;
+        top: 193px;
+        line-height: 66px;
+        font-size: 55px;
+    }
+    .banner-content-section {
+        width: 350px;
+        height: 269px;
+        left: 212px;
+        top: 402px;  
+    }
+    .banner-content-section ul {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .search {
+        left: 282px;
+        top: 558px;
+    }
+ //banner end
+
+    //about-us start
+    .about {
+        margin-top: 7rem;
+        margin-left: 428px;
+    }
+    p.frist-about-us {
+        margin-top: -192px;
+    }
+    .client .name {
+        top: 1rem;
+    }
+    .popular-brand p{
+        left: 235px;
+        top: 2306px;
+    }
+    .row-sec h3 {
+        left: 50px;
+        top: 2525px;
+    }
+    .row-sec .frist-p {
+        width: 486px;
+        left: 207px;
+        top: 2505px;
+        text-align: left;
+    }
+    .row-sec .sec{
+        margin-top: 143px;
+    }
+    .row-sec .last-p{
+        width: 460px;
+        left: 221px;
+        top: 2651px;
+        text-align: left;
+    }
+    
+.row-sec .sec-p {
+    width: 433px;
+    left:256px;
+    top: 2808px;
+    text-align: left;
+}
+.row-sec .four {
+    margin-top: 510px;
+}
+
+.row-sec .last {
+    margin-top: 680px;
+}
+.row-sec .four-p {
+    width: 403px;
+    left: 251px;
+    top: 3023px;
+    text-align: left;
+}
+.row-sec .third-p {
+    left: 244px;
+    top: 3188px;
+    width: 430px;
+    text-align: left;
+}
+.row .view-all-bands{
+    left: 298px;
+    top: 3344px;
+}
+.popular-img{
+    display: none;
+}
+
+.row-sec .frist-img {
+    margin-top: 11px;
+    margin-left: 559px;
+    width: 54px;
+}
+.row-sec .sec-img {
+    margin-top: 0rem;
+    margin-left: 564px;
+    width: 54px;
+}
+.row-sec .img-third {
+    margin-left: 552px;
+    margin-top: 169px;
+    width: 54px;
+}
+.row-sec .four-img {
+    margin-left: 549px;
+    margin-top: 127px;
+    width: 54px;
+}
+.row-sec .last-img {
+    margin-left: 548px;
+    width: 54px;
+    margin-top: 62px;
+}
+  //about-us end
+  //popular band star
+  .popular-brand h2 {
+    margin-top: -2.5rem;
+}
+.row-sec {
+    margin-top: 84px;
+    height: 969px;
+}
+  //popular band end
+
+//Special-Genres start
+
+.Special-Genres h2 {
+    top: 3734px;
+    left: 8px;
+}
+.arrow-btn {
+    margin-top: 11rem;
+    margin-left: 9rem;
+}
+.img-galary .img-gala-first {
+    margin-left: 23px;
+}
+.img-galary img {
+    width: 355px;
+    height: 491px;
+}
+img.custom {
+    margin-top: 517px;
+    margin-left: -741px;
+}
+
+.view-all-genres{
+    top: 4890px;
+    left: 255px;
+}
+.video-icon {
+    left: 434px;
+    top: 3894px;
+}
+.row-sec h3 {
+    left: 50px;
+    top: 2533px;
+}
+//Special-Genres end
+
+//live band start
+.live-band{
+    top: 4967px;
+}
+.live-band p{
+    margin-top: 126px;
+    margin-left: 308px;
+}
+
+.live-band h2{
+    margin-left: 66px;
+}
+.live-band button {
+    margin-left: 321px;
+}
+//live band end
+
+//how it works start
+.col-md-6.how-it-custom {
+    margin-left: 8px;
+}
+.how-it-works {
+    top: 5768px;
+    height: 1794px;
+    left: -8px;
+}
+.how-it-works img {
+    top: 66px;
+    left: 58px;
+    width: 536px;
+    height: 675px;
+}
+.how-it-works p{
+    margin-top: 801px;
+    margin-left: 114px;
+}
+.how-it-works h2 {
+    margin-left: 111px;
+    margin-top: -9px;
+    margin-bottom: 24px;
+}
+
+.arrow-vartical {
+    margin-left: 117px;
+}
+p.how-it-p2 {
+    left: 51px;
+    width: 449px;
+    top: 440px;
+}
+.how-it-works .how-it-p {
+    top: 205px;
+    left: 31px;
+    width: 453px;
+}
+h4.book-with-confidence {
+    margin-right: -48px;
+}
+p.thir-step-paragrap {
+    margin-left: -275px;
+    margin-top: 812px;
+}
+//how it works End
+
+//clients-feedback start
+.clients-feedback {
+    top: 7607px;
+}
+.clients-feedback span {
+    left: 124px;
+}
+.frist-review {
+  
+    width: 61%;
+    margin-top: 1rem;
+    margin-left: 7rem;
+   
+}
+.frist-review div p {
+    left: 174px;
+    top: 263px;
+
+}
+.client-pic .client-info{
+    left: 218px;
+    top: 502px;
+}
+.sec-review {
+    width: 61%;
+    margin-top: 30rem;
+    margin-left: -337px;
+}
+.third-review {
+    border: 1px solid #f5f5f5;
+    width: 58%;
+    margin-top: 51rem;
+    margin-left: -52rem;
+}
+//.clients-feedback end
+
+
+// latest-news start
+.latest-news {
+    top: 8903px;
+    height: 1886px;
+}
+.latest-news h2{
+    left: 191px;
+    top: 131px;
+}
+.latest-news span{
+    margin-top: 79px;
+    margin-left: 339px;
+}
+.latest-news .div {
+    width: 416px;
+    height: 468px;
+}
+.frist-bg {
+    left: 223px;
+}
+.sec-bg {
+    top: 788px;
+    left: 223px;
+}
+div.gradiant {
+    width: 327px;
+    height: 390px;
+    left: 279px;
+    top: 830px;
+}
+.third-bg {
+    top: 1291px;
+    left: 223px;
+}
+// latest-news end
+
+//logo start
+.logo {
+    top: 10843px;
+}
+img.frist-logo.logo-cus1 {
+    margin-left: 209px;
+}
+img.sec-logo.logo-cus3 {
+    margin-left: 201px;
+    margin-top: 58px;
+}
+img.sec-logo.logo-cus4 {
+    margin-top: 59px;
+}
+//logo end
+
+//top footer start
+.top-footer {
+    height: 250px;
+    top: -251px;
+    left: 2px;
+    width: 98%;
+}
+.top-footer span {
+    left: -14px;
+    right: 44.12%;
+}
+.top-footer h2{
+    left: 37px;
+    right: 5px;
+    width: 322px;
+}
+.top-footer button {
+    margin-left: 484px;
+}
+//top footer end
+
+//footer start
+.footer {
+    top: 11351px;
+    height: 569px;
+}
+.footer .about-us {
+    position: absolute;
+    top: -777px;
+    left: 164px;
+    width: 326px;
+}
+.Resources {
+    top: 28px;
+}
+.company {
+    margin-top: 110px;
+    margin-left: 252px;
+    position: absolute;
+    top: 100px;
+    left: -81px;
+}
+.subscribe {
+    position: absolute;
+    top: 227px;
+    left: 445px;
+    width: 319px;
+}
+
+//footer end
+
+//bottom footer
+.bottom-footer {
+    top: 11915px;
+    height: 178px;
+}
+.bottom-footer .copyright{
+    left: 237px;
+}
+.bottom-footer-logo {
+    left: 245px;
+    bottom: 55px;
+}
+.terms-privacy{
+    left: 231px;
+}
+} 
+
+
+
+
+@media  (max-width: 600px) {
+    //navbar start
+    .enquiry{
+        display: none
+    }
+    .sm-none {
+        display: none;
+    }
+    .top-header-ul {
+        display: flex;
+        margin-top: 1.2rem;
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+    }
+    .browse{
+        margin-left: 0;
+    }
+    .navbar-light .navbar-toggler {
+        color: rgba(0,0,0,.55);
+        border-color: rgba(0,0,0,.1);
+        background: #fff;
+        margin-top: 12px;
+       
+    }
+    .navbar>.container, .navbar>.container-fluid, .navbar>.container-lg, .navbar>.container-md, .navbar>.container-sm, .navbar>.container-xl, .navbar>.container-xxl {
+        display: flex;
+        flex-wrap: inherit;
+        align-items: center;
+        justify-content: space-between; 
+    }
+//navbar end
+//hero/banner part start
+    .bg-img {
+        top: 80px; 
+    }
+
+    .banner p{
+        left: 28px;
+        top: 114px;
+        font-size: 17px;
+    }
+    .banner h1 {
+        height: 220px;
+        width: 610px;
+        left: -27px;
+        top: 181px;
+        font-size: 44px;
+       
+    }
+    .banner-content-section {
+        width: 308px;
+        height: 200px;
+        left: 134px;
+        top: 383px;
+    }
+    .banner-content-section ul {
+        display: flex;
+        flex-direction: column;
+    }
+    .search {
+        left: 164px;
+        top: 512px;
+      
+    }
+    //hero/banner part end
+
+    //about us start
+    .about {
+        margin-top: 47rem;
+        margin-left: 40px;
+    }
+    .people img{
+        width: 249px;
+        height: 390px;
+        margin-left: 89px;
+    }
+    .people .video {
+        position: absolute;
+        width: 150px;
+        height: 150px;
+        top: 281px;
+        left: 221px;
+    }
+    .about-us p {
+     margin-left: 51px;
+    }
+    h1.about-us-h1 {
+        margin-top: -788px;
+        margin-left: 75px;
+        width: 465px;
+    }
+    .client .name {
+        top: 15rem;
+        left: 211px;
+    }
+    .client .founder {
+        top: 267px;
+        left: 212px;
+    }
+
+    // .about .p {
+    //     margin-top: 17px;
+    // }
+    p.frist-about-us {
+        left: 166px;
+        position: absolute;
+        top: 716px;
+        margin-left: 8px;
+    }
+    .about-us p.about-us-sce-p {
+        width: 475px;
+        margin-top: 30px;
+        margin-left: 82px;
+    }
+
+
+    .frist-about-us {
+        left: 309px !important;
+        position: absolute;
+        top: 716px;
+        margin-left: 8px;
+    }
+    .client {
+        margin-left: -12px;
+        margin-top: 35px;
+    }
+    .more-about-us {
+        margin-left: 75px;
+    }
+    //about us end
+
+    //popular band start
+    .popular-brand {
+        margin-top: -346px;
+    }
+    .popular-brand p {
+        left: 165px;
+        top: 2063px;
+       
+    }
+    .popular-brand h2 {
+        font-size: 50px;
+        line-height: 60px;
+        margin-top: 49px;
+    }
+    .row-sec h3 {
+        left: 50px;
+        top: 2288px;
+    }
+    .row-sec .frist-img {
+        margin-top: 102px;
+        margin-left: 491px;
+        position: absolute;
+        width: 54px;
+    }
+    .row-sec .frist-p {
+      
+        width: 470px;
+        left: 15px;
+        top: 2359px;
+        text-align: left;
+      
+    }
+    .row-sec .sec {
+        margin-top: 206px;
+    }
+    .row-sec .sec-img {
+        margin-top: 21rem;
+        margin-left: 479px;
+        width: 54px;
+        position: absolute;
+    }
+    .row-sec .sec-p {
+        width: 485px;
+        height: 90px;
+        left: 12px;
+        top: 2570px; 
+        text-align: left;
+    }
+
+    .row-sec .img-third {
+        margin-left: 489px;
+        margin-top: 570px;
+        position: absolute;
+        width: 54px;
+    }
+    .row-sec .third {
+        margin-top: 435px;
+    }
+    .row-sec .third-p {
+        left: 30px;
+        top: 2810px;
+        text-align: left;
+    }
+
+    .row-sec .four {
+        margin-top: 670px;
+    }
+    .row-sec .four-img {
+        top: -57xpx;
+        margin-top: 820px;
+        margin-left: 464px;
+        width: 54px;
+    }
+    .row-sec .four-p{
+        width: 452px;
+        height: 90px;
+        left: 23px;
+        top: 3046px;
+        text-align: left;
+    }
+    .row-sec .last-img {
+        margin-left: 465px;
+        width: 54px;
+        margin-top: 222px;
+    }
+    .row-sec .last {
+        margin-top: 961px;
+    }
+    .row-sec .last-p {
+        left: 25px;
+        top: 3338px;
+        text-align: left;
+        width: 449px;
+    }
+    .popular-img{
+        display: none;
+    }
+    hr{
+        display: none;
+    }
+    .row .view-all-bands {
+        left: 170px;
+        top: 3477px;
+    }
+    //popular band end
+    //Special-Genres start
+    .Special-Genres {
+        margin-top: 303px;
+    }
+
+    .Special-Genres p {
+        margin-left: 25px;
+        margin-top: 35px;
+    }
+    .Special-Genres h2 {
+        top: 3640px;
+        font-size: 39px;    
+        left: 26px;
+        width: 427px;
+    }
+    .arrow-btn {
+        margin-top: 8rem;
+        margin-left: 9rem;
+    }
+    
+    .img-galary img {
+        width: 258px;
+        height: 322px;
+    }
+    img.custom {
+        margin-top: 355px;
+        margin-left: -540px;
+    }
+    .video-icon {
+        top: 3895px;
+        left: 317px;
+    }
+    .view-all-genres { 
+    top: 4628px;
+    left: 100px;
+
+    }
+    // //Special-Genres start
+
+    //live Band start
+    .live-band {
+        top: 4717px;
+    }
+    .live-band h2 {
+        width: 497px;
+        margin-left: 10px;
+        margin-top: 36px;
+        font-size: 37px;
+    }
+    .live-band p{
+        margin-top: 92px;
+        margin-left: 183px;
+    }
+    .live-band button {
+        margin-left: 176px;
+        margin-top: 44px;
+    }
+    //live band end
+    //.how-it-works start
+    .how-it-works {
+        top: 5238px;
+        left: 0px;
+    }
+    .how-it-works img {
+        top: -2px;
+        left: 2px;
+        position: absolute;
+        width: 565px;
+        height: 673px;
+    }
+    .how-it-custom {
+        margin-top: -102px;
+    }
+    .how-it-works h2 {
+        margin-bottom: 29px;
+        font-size: 44px;
+    }
+    p.how-it-p3 {
+        top: 595px;
+        left: 428px;
+        width: 430px;
+    }
+    .how-it-works .how-it-p {
+        top: 347px;
+        left: 57px;
+        width: 430px;
+    }
+    p.how-it-p2 {
+        top: 116px;
+        left: 52px;
+        width: 430px;
+    }
+   
+     //.how-it-works end
+
+     //clients feedback start
+     .clients-feedback span {
+        left: 231px;
+    }
+     .clients-feedback {
+        top: 6877px;
+     }
+     .clients-feedback h2{
+        top: 70px;
+     }
+     .clients-feedback .arrow-btn {
+        margin-top: 10rem;
+        margin-left: 14rem;
+    }
+    .frist-review {
+        border: 1px solid #f5f5f5;
+        width: 67%;
+        margin-top: 1rem;
+        margin-left: 6rem;
+      
+    }
+    .frist-review div p{
+        left: 157px;
+        top: 248px;
+    }
+    .client-pic .client-info {
+        left: 206px;
+        top: 520px;
+    }
+    //sec-review
+    .sec-review{
+        width: 63%;
+        margin-top: 32rem;
+        margin-left: -328px;
+    }
+    .client-des h5 {  
+    top: 265px;
+    }
+    .client-des .info { 
+    top: 289px;
+    left: 111px;
+
+    }
+    //third review 
+    
+    .third-review{
+        width: 65%;
+        margin-top: 56rem;
+        margin-left: -51rem;
+    }
+
+    .client-pic .client-info2 {
+        top: 266px;
+    }
+       //clients feedback end
+  
+//latest news start
+.latest-news {
+    top: 8234px;
+    height: 1707px;
+}
+.latest-news span{
+    margin-top: 80px;
+    margin-left: 229px
+}
+.latest-news h2 {
+    width: 425px;
+    height: 70px;
+    left: 102px;
+    top: 118px;
+    font-size: 48px;
+}
+
+.frist-bg {
+    left: 126px;
+}
+.sec-bg {
+    top: 734px;
+    left: 126px;
+}
+div.gradiant{
+    left: 146px;
+    top: 761px;
+}
+.third-bg{
+    top: 1183px;
+    left: 128px;
+}
+//latest news end
+
+;
+//logo 
+.logo{
+    top: 10000px;
+}
+.logo-cus1 {
+    /* margin-left: 109px; */
+    position: absolute;
+    top: 2px;
+    left: -114px;
+}
+.logo-cus2 {
+    position: absolute;
+    top:4px;
+    left: 339px;
+}
+.logo-cus3 {
+    top: 114px;
+    position: absolute;
+    left: 91px;
+}
+img.sec-logo.logo-cus3 {
+    margin-left: 6px;
+    margin-top: 58px;
+}
+.logo-cus4 {
+    position: absolute;
+    top: 116px;
+    left: 329px;
+}
+//footer top
+
+//footer  start
+.footer {
+    top: 10559px;
+    height: 577px;
+}
+.footer .about-us {
+
+    top: -462px;
+  
+}
+.about-us h5 {
+    position: absolute;
+    top: -242px;
+    left: -99px;
+}
+.about-us p {
+    margin-top: -198px;
+    margin-left: -101px;
+    width: 243px;
+}
+.about-us .icon {
+    display: flex;
+    gap: 20px;
+    margin-left: -100px;
+}
+.Resources {
+    top: 340px;
+    left: 509px;
+}
+.Resources h5 {
+    position: absolute;
+    top: -244px;
+    left: -126px;
+}
+.Resources ul {
+    margin-top: -209px;
+    margin-left: -152px;
+}
+.company {
+    position: absolute;
+    top: 206px;
+    left: -142px;
+}
+.subscribe {
+    position: absolute;
+    top: 320px;
+    left: 266px;
+    width: 319px;
+}
+//footer  end 
+//top footer
+.top-footer {
+    height: 250px;
+    top: -243px;
+    left: 1px;
+    width: 100%; 
+}
+
+.top-footer span{
+    left: 18px;
+    right: 52.12%;
+}
+.top-footer h2 {
+    left: 7.41%;
+    right: 23.95%;
+}
+.top-footer button {
+    margin-left: 376px;
+    margin-top: 86px;
+}
+//footer bottom
+.bottom-footer {
+    top: 11134px;
+    height: 180px;
+}
+.bottom-footer .copyright{
+    left: 161px;
+}
+.bottom-footer-logo h5 {
+    position: absolute;
+    margin-left: -416px;
+    margin-top: -106px;
+}
+.bottom-footer-logo {
+    left: 635px;
+    bottom: 21px;
+}
+.terms-privacy{
+    left: 165px;
+    top: 125px;
+}
+
+  }
+  
+
+  //responsive for 480px
+  @media (max-width:480px){
+    //hero start
+    .banner p {
+        left: -27px;
+        top: 114px;
+        font-size: 15px;
+    }
+    .banner h1 {
+        left: 4px;
+        font-size: 39px;
+        width: 403px;
+    }
+    .banner-content-section {
+        left: 62px;
+    }
+    .search {
+        left: 108px;
+    }
+        //hero end
+
+        //about us start
+        .people img {
+            margin-left: 49px;
+        }
+        h1.about-us-h1 {
+            margin-top: -788px;
+            margin-left: -6px;
+            width: 465px;
+            font-size: 39px;
+        }
+        p.frist-about-us {
+            margin-left: -243px;
+        }
+        .about-us p.about-us-sce-p {
+            width: 371px;
+            margin-left: -20px;
+        }
+          //about us end
+          //popular band start
+          .popular-brand p {
+            left: 66px;
+            top: 2101px;
+        }
+        .popular-brand h2 {
+            font-size: 39px;
+            margin-top: 95px;
+        }
+        //popular band start
+  }
